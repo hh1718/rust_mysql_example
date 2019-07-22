@@ -1,5 +1,5 @@
 [package]
-name = "rust_mysql"
+name = "rust_mysql_example"
 version = "0.1.0"
 authors = ["hh1718"]
 edition = "2018"

@@ -1,7 +1,6 @@
 use mysql;
 mod db;
 mod tables;
-mod dao_trait;
 
 pub fn select_user() -> Vec<tables::UserRow> {
     let query: String = "SELECT id, name from lms.user ".to_string();
